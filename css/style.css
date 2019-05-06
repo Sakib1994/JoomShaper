@@ -1,0 +1,257 @@
+section{
+    height: 100vh;
+    background-color: #bde2fb;
+}
+#section1{
+    position: relative;
+}
+#cloud1{
+    position: relative;
+    top: 33%;
+    height: 7%;
+    left: 60%;
+    animation-name: animcloud1;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes animcloud1{
+    0%   {
+        left:60%;
+        opacity: 1;
+    }
+    25%  {
+        opacity: 1;
+        left:35%;
+    }
+    50%  {
+        opacity: 1;
+        left:5%}
+    55%  {
+        opacity: 0;
+        left:-10%}    
+    60%  {
+        opacity: 0;
+        left:110%;}
+    65%  {
+        opacity: 1;
+        left:90%;}
+    100% {
+         left:60%;
+         opacity: 1;
+    }
+}
+#cloud2{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    animation-name: animcloud2;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes animcloud2{
+    0%   {
+        left:65%;
+        opacity: 1;
+    }
+    60%  {
+        opacity: 1;
+        left:5%}
+    62%  {
+        opacity: 0;
+        left:-5%}    
+    63%  {
+        opacity: 0;
+        left:110%;}
+    65%  {
+        opacity: 1;
+        left:95%;}
+    100% {
+         left:65%;
+         opacity: 1;
+    }
+}
+#cloud3{
+    position: absolute;
+    top: 27%;
+    left: 45%;
+    animation-name: animcloud3;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes animcloud3{
+    0%   {
+        left:45%;
+        opacity: 1;
+    }
+    25%  {
+        opacity: 1;
+        left:25%;
+    }
+    45%  {
+        opacity: 1;
+        left:5%}
+    50%  {
+        opacity: 0;
+        left:-10%}    
+    52%  {
+        opacity: 0;
+        left:110%;}
+    55%  {
+        opacity: 1;
+        left:90%;}
+    100% {
+         left:45%;
+         opacity: 1;
+    }
+}
+#cloud4{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    animation-name: animcloud4;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes animcloud4{
+    0%   {
+        left:55%;
+        opacity: 1;
+    }
+    50%  {
+        opacity: 1;
+        left:5%}
+    55%  {
+        opacity: 0;
+        left:-5%}    
+    57%  {
+        opacity: 0;
+        left:110%;}
+    60%  {
+        opacity: 1;
+        left:95%;}
+    100% {
+         left:55%;
+         opacity: 1;
+    }
+}
+#cloud5{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.header{
+    margin: 7vh 15vw 5vh 15vw;
+    text-align: center;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px;
+}
+  
+  
+  .content {
+    padding: 5px 4px;
+  }
+  
+  
+  .counter {
+    min-height: 15vh;
+    text-align: center;
+  }
+  
+  
+  #countdown {
+    color: black;
+    font-size: 4ex;
+  }
+  
+  #countdown > div{ 
+    padding: 10px; 
+    background: transparent; 
+    display: inline-block; 
+} 
+#countdown div > span{ 
+    padding: 0px; 
+    border-radius: 3px; 
+    background: transparent; 
+    display: inline-block; 
+} 
+#countdown .smalltext{ 
+    padding-top: 5px; 
+    font-size: 2ex;
+
+} 
+#countdown .places{ 
+    margin: 2vh 5vw;
+} 
+.btnContainer {
+    margin-left: 39vw;
+    margin-top: 0vh;
+}
+.btnContainer button{
+    border-radius: 0px;
+    margin-top: 20px;
+}
+#hill {
+    height: 40vh;
+    width: 100%;
+}
+#s2t1 {
+    display: block;
+    margin-top: 10vh;
+    margin-left: 13vw;
+}
+#s2t3 {
+    display: none;
+}
+
+
+#s3t2{
+    margin-top: 10vh;
+    margin-right: 13vw;
+}
+.imgCar{
+    width: 100%;
+}
+.name{
+    position: absolute;
+    bottom: -16px;
+    background-color: white;
+    color: black;
+    height: 10vh;
+    text-align: center;
+    width: 93%;
+    z-index: -1;
+}
+.divider{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+}
+
+
+@media only screen and (max-width: 800px) {
+    h1{
+        font-size: 2rem;
+    }
+    #s2t1 {
+        display: none;
+    }
+    #s2t3 {
+        display: block;
+        margin-top: 5vh;
+    }
+    #s3t2{
+        margin-top: 5vh;
+    }
+    #s3t1 img{
+        margin-top: 5vh;
+        height: 20%;
+    }
+    
+  }
